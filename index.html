@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Acesso ao Sistemas</title>
+</head>
+<body>
+    <center>
+        <h1>  GRUPO 2</h1>
+        <br>
+        <h2>TELA DE LOGIN</h2>
+        <hr><br>
+
+    <!--a tag form cria formulario em html . action é a ação e do documento onde sera feita a acção.
+         e no login q vai nus permite se comunicar cm o bd  -->
+
+         <form method="POST" action="login.php">
+<!-- INPUT inseri o  nome dentro do formulario tem sempre um tipo neste caso é text, a variavel
+     dentro fo formulario é name e atribuimos um nome -->
+            USUÁRIO: <input type="text" name="txt-usuario"> <br><br>
+          
+            SENHA:  <input type="password" name="txt-senha"> <br><br>
+
+            <!-- a linha abaixo cria um input de botao do tipo submit subimeter, value q sign 
+                valor q vai ser o nome do bot]ao -->
+            <input type="submit" value="Entra"> <br ><br >
+
+          <!-- criando um link com uma ancora de ligação a outro documento -->
+            <a href="cadastroUsu.html"> Cadastrar-se </a>
+</form>
+
+</center>
+</body>
+</html>

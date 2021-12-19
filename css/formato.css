@@ -1,0 +1,91 @@
+/* Arquivo css*/
+
+*{padding: 0;
+ margin: 0;
+ font-size: 14px;
+	text-decoration: none;
+	color:rgba(3, 2, 2, 0.842);                 
+list-style: none;
+
+}
+
+
+
+
+.menu ul {
+    background: rgb(93, 71, 218);
+    display: flex;
+    list-style: none;
+}
+.menu ul ul {
+    display: none;
+}
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #FFF;
+   text-decoration: none;
+}
+.menu a:hover {
+    background: rgba(rgb(196, 49, 130), alpha)
+    
+}
+.menu ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+
+
+
+
+
+
+body{background-color: rgb(12, 6, 6);}
+
+#geral{max-width: auto;height: auto;overflow: hidden;margin: 0 auto;}
+/*-----------------------topo do site----------------------------*/
+
+/*#topo{width: 100%;height: 500px; font-size: 18px; float: left;background-image:url('../img/foto/.PNG');}
+//.logo{width: auto; height:auto;float: left;margin: 20px;}  
+//.links_top{float:right;padding:10px;margin:5px;background-color:#145;color:#FFF} 
+//.links_top:hover{background-color: rgb(105, 137, 202)}
+
+/*------------------MENU DO SITE---------------------*/
+#menu{width: 100%;height:50px; float:left;background-color: #145}
+.links_menu li a{float:left;padding:17px;background-color:#145;color: #FFF;margin-top:0px;}
+.links_menu li a:hover{background-color: #59f}
+
+/*--------------------------sessao------------------------------------*/
+#sessao{width: 100%;height:auto;float:left;background-color: #145;padding:10px;}
+
+
+/*-------------------------CONTEUDOS DO SITE---------------------*/
+#conteudo{width: 100%;min-height:600px; float: left;background-color:rgb(204, 196, 196);padding:20px;}
+#conteudo_principal{width:70%;min-height:600px;float:left;border:2px solid #CCC;margin:20px 10px;}
+#recentes{width:26%;min-height:600px;float:left;border:2px solid #CCC;margin:20px 10px;}
+.postagens{width: 100%;height:auto;overflow:hidden;float:left;margin:10px 0 30px 0;border:0px solid #F00}
+.titulos{font-size:20px;font-family:calibri,sans-serif;float:left;width:96%;margin:10px 2%}
+.imagem{width: 30%height:50%;float:left;margin:5px 0;}
+.paragrafo,.data{font-size:16px;color:#111;float:left;width:96%;font-family:calibri,sans-serif;margin:10px 2%} 
+.postagens_recentes{width: 100%;height:auto;overflow:hidden;float:left;margin:10px 0 30px 0;border:0x solid #F00}
+.titulos a:hover{color:#59f;}
+
+.titulos_departamentos{text-align: center;}
+
+/*-------------------------PAGINA DE CONTATO  E DE CADASTRO DO SITE---------------------*/
+.campo, .campo_cad,#botoes,.botoes{width:80%;margin:10px 10%;min-height:30px;float:left;padding:2px;font-size:14px;border-radius: 30px;border: 1px solid black;}     
+.campo2{width:70%;margin:10px 10%;min-height:150px;float:left;padding:2px;border-radius: 30px;border: 1px solid black;}
+.bt_enviar{float:left;margin-left:10%;padding:5px;font-size:16px; cursor: pointer;background-color: #FF0066; border:none;border-radius: 30px;border: 1px solid black;}
+.legenda{float:left;margin-left:10%;font-size:14px;}   
+#box_form{width:80%;min-height:300px;background-color:#FFF;margin:40px auto;overflow:hidden;}
+.bt_cad{float:left;font-size:16px;padding:5px;margin-right:5px}
+.form_link{color:#59F;font-size:16px;float:left;}
+.p_form{color:#333;font-size:16px;float:left;width:100%;}
+
+
+
+/*-------------------------RODAPE DO SITE---------------------*/
+#rodape {width: 100%;height: auto; float: left;background-color: rgb(221, 221, 221);padding: 15px}
+#urodape ul li{display:inline-block;}
+.direitos{font-size:18px;}
